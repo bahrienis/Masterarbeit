@@ -122,6 +122,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/pses/catkin_ws/build/iai_kinect2/kinect2_bridge/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/iai_kinect2/kinect2_calibration/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer/cmake_install.cmake")
+  include("/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/pses_basis/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/pses_simulation/cmake_install.cmake")
 

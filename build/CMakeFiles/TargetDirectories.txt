@@ -127,6 +127,15 @@
 /home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer/CMakeFiles/kinect2_viewer.dir
 /home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer/CMakeFiles/install/strip.dir
 /home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer/CMakeFiles/install/local.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/list_install_components.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/install.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/rebuild_cache.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/edit_cache.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/test.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/additional_files_kinect2_viewer_test.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/kinect2_viewer_test.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/install/strip.dir
+/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test/CMakeFiles/install/local.dir
 /home/pses/catkin_ws/build/pses_basis/CMakeFiles/list_install_components.dir
 /home/pses/catkin_ws/build/pses_basis/CMakeFiles/rebuild_cache.dir
 /home/pses/catkin_ws/build/pses_basis/CMakeFiles/edit_cache.dir

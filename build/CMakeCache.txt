@@ -718,6 +718,18 @@ kinect2_viewer_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kinect2_
 //Value Computed by CMake
 kinect2_viewer_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_viewer
 
+//Value Computed by CMake
+kinect2_viewer_testCXX_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test
+
+//Value Computed by CMake
+kinect2_viewer_testCXX_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_viewer_test
+
+//Value Computed by CMake
+kinect2_viewer_test_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kinect2_viewer_test
+
+//Value Computed by CMake
+kinect2_viewer_test_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_viewer_test
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
 
@@ -958,7 +970,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

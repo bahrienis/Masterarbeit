@@ -1206,6 +1206,32 @@ kinect2_viewer/fast:
 .PHONY : kinect2_viewer/fast
 
 #=============================================================================
+# Target rules for targets named additional_files_kinect2_viewer_test
+
+# Build rule for target.
+additional_files_kinect2_viewer_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 additional_files_kinect2_viewer_test
+.PHONY : additional_files_kinect2_viewer_test
+
+# fast build rule for target.
+additional_files_kinect2_viewer_test/fast:
+	$(MAKE) -f iai_kinect2/kinect2_viewer_test/CMakeFiles/additional_files_kinect2_viewer_test.dir/build.make iai_kinect2/kinect2_viewer_test/CMakeFiles/additional_files_kinect2_viewer_test.dir/build
+.PHONY : additional_files_kinect2_viewer_test/fast
+
+#=============================================================================
+# Target rules for targets named kinect2_viewer_test
+
+# Build rule for target.
+kinect2_viewer_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kinect2_viewer_test
+.PHONY : kinect2_viewer_test
+
+# fast build rule for target.
+kinect2_viewer_test/fast:
+	$(MAKE) -f iai_kinect2/kinect2_viewer_test/CMakeFiles/kinect2_viewer_test.dir/build.make iai_kinect2/kinect2_viewer_test/CMakeFiles/kinect2_viewer_test.dir/build
+.PHONY : kinect2_viewer_test/fast
+
+#=============================================================================
 # Target rules for targets named car_odometry
 
 # Build rule for target.
@@ -1961,6 +1987,8 @@ help:
 	@echo "... kinect2_calibration"
 	@echo "... additional_files_kinect2_viewer"
 	@echo "... kinect2_viewer"
+	@echo "... additional_files_kinect2_viewer_test"
+	@echo "... kinect2_viewer_test"
 	@echo "... car_odometry"
 	@echo "... car_handler"
 	@echo "... ucboard"

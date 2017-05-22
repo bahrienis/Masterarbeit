@@ -1,0 +1,8 @@
+prefix=/home/pses/catkin_ws/install
+
+Name: kinect2_viewer_test
+Description: Description of kinect2_viewer_test
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/pses/catkin_ws/install/lib 
+Requires: 

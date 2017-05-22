@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libforward_kinematics.so -o /home/pses/catkin_ws/devel/lib/libforward_kinematics.so CMakeFiles/forward_kinematics.dir/src/ForwardKinematics.cpp.o CMakeFiles/forward_kinematics.dir/forward_kinematics_automoc.cpp.o 

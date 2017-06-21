@@ -588,6 +588,9 @@ bond_DIR:PATH=/opt/ros/kinetic/share/bond/cmake
 //The directory containing a CMake configuration file for bondcpp.
 bondcpp_DIR:PATH=/opt/ros/kinetic/share/bondcpp/cmake
 
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/kinetic/share/camera_info_manager/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
@@ -701,6 +704,12 @@ kinect2_calibration_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kin
 kinect2_calibration_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_calibration
 
 //Value Computed by CMake
+kinect2_calibration_test_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kinect2_calibration_test
+
+//Value Computed by CMake
+kinect2_calibration_test_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_calibration_test
+
+//Value Computed by CMake
 kinect2_registration_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kinect2_registration
 
 //The directory containing a CMake configuration file for kinect2_registration.
@@ -730,8 +739,14 @@ kinect2_viewer_test_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/iai_kinect2/kin
 //Value Computed by CMake
 kinect2_viewer_test_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/iai_kinect2/kinect2_viewer_test
 
+//Value Computed by CMake
+lane_detection_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/lane_detection
+
+//Value Computed by CMake
+lane_detection_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/lane_detection
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libcamera_info_manager.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -747,6 +762,12 @@ nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
+
+//Value Computed by CMake
+opencv_tutorial_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/opencv_tutorial
+
+//Value Computed by CMake
+opencv_tutorial_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/opencv_tutorial
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
@@ -805,6 +826,9 @@ smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/kinetic/share/std_srvs/cmake
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
 
@@ -822,6 +846,15 @@ tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
 
 //Dependencies for the target
 ucboard_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libtf.so;general;/opt/ros/kinetic/lib/libtf2_ros.so;general;/opt/ros/kinetic/lib/libactionlib.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libtf2.so;general;/opt/ros/kinetic/lib/libserial.so;general;/opt/ros/kinetic/lib/libcv_bridge.so;general;/opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_core3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_video3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_face3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_text3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0;general;/opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+usb_cam_BINARY_DIR:STATIC=/home/pses/catkin_ws/build/usb_cam
+
+//Dependencies for the target
+usb_cam_LIB_DEPENDS:STATIC=general;avcodec-ffmpeg;general;swscale-ffmpeg;general;/opt/ros/kinetic/lib/libimage_transport.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/opt/ros/kinetic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/kinetic/lib/libroslib.so;general;/opt/ros/kinetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/kinetic/lib/libcamera_info_manager.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+usb_cam_SOURCE_DIR:STATIC=/home/pses/catkin_ws/src/usb_cam
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -970,7 +1003,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1067,6 +1100,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_SURFACE:INTERNAL=[/usr/lib/x86_64-linux-gnu/lib
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_TRACKING:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_tracking.so][/usr/include/pcl-1.7][v()]
 //Details about finding PCL_VISUALIZATION
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_VISUALIZATION:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_visualization.so][/usr/include/pcl-1.7][v()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
@@ -1342,5 +1377,75 @@ __pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_PC_FLANN:INTERNAL=1
 __pkg_config_checked_PC_OPENNI:INTERNAL=1
 __pkg_config_checked_PC_OPENNI2:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib
+__pkg_config_checked_avcodec:INTERNAL=1
+__pkg_config_checked_swscale:INTERNAL=1
+avcodec_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+avcodec_CFLAGS_I:INTERNAL=
+avcodec_CFLAGS_OTHER:INTERNAL=
+avcodec_FOUND:INTERNAL=1
+avcodec_INCLUDEDIR:INTERNAL=/usr/include/x86_64-linux-gnu
+avcodec_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+avcodec_LDFLAGS:INTERNAL=-lavcodec-ffmpeg
+avcodec_LDFLAGS_OTHER:INTERNAL=
+avcodec_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+avcodec_LIBRARIES:INTERNAL=avcodec-ffmpeg
+avcodec_LIBRARY_DIRS:INTERNAL=
+avcodec_LIBS:INTERNAL=
+avcodec_LIBS_L:INTERNAL=
+avcodec_LIBS_OTHER:INTERNAL=
+avcodec_LIBS_PATHS:INTERNAL=
+avcodec_PREFIX:INTERNAL=/usr
+avcodec_STATIC_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+avcodec_STATIC_CFLAGS_I:INTERNAL=
+avcodec_STATIC_CFLAGS_OTHER:INTERNAL=
+avcodec_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+avcodec_STATIC_LDFLAGS:INTERNAL=-lavcodec-ffmpeg;-lXv;-lX11;-lXext;-ldl;-lva;-lva-x11;-lva;-lxcb;-lxcb-shm;-lxcb;-lxcb-xfixes;-lxcb-render;-lxcb-shape;-lxcb;-lxcb-shape;-lxcb;-lX11;-lcdio_paranoia;-lcdio_cdda;-lcdio;-ljack;-lasound;-lSDL;-ldc1394;-lgmp;-lGL;-lopenal;-lzvbi;-lzmq;-lxvidcore;-lx265;-lx264;-lwebp;-lwavpack;-lvpx;-lm;-lvpx;-lm;-lvpx;-lm;-lvpx;-lm;-lvorbisenc;-lvorbis;-logg;-ltwolame;-ltheoraenc;-ltheoradec;-logg;-lspeex;-lssh;-lsoxr;-lsnappy;-lm;-lshine;-lschroedinger-1.0;-lrtmp;-lz;-lgmp;-lpulse;-lopus;-lopenjpeg;-DOPJ_STATIC;/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so;-lopencv_calib3d;/usr/lib/x86_64-linux-gnu/libopencv_contrib.so;-lopencv_contrib;/usr/lib/x86_64-linux-gnu/libopencv_core.so;-lopencv_core;/usr/lib/x86_64-linux-gnu/libopencv_features2d.so;-lopencv_features2d;/usr/lib/x86_64-linux-gnu/libopencv_flann.so;-lopencv_flann;/usr/lib/x86_64-linux-gnu/libopencv_gpu.so;-lopencv_gpu;/usr/lib/x86_64-linux-gnu/libopencv_highgui.so;-lopencv_highgui;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so;-lopencv_imgproc;/usr/lib/x86_64-linux-gnu/libopencv_legacy.so;-lopencv_legacy;/usr/lib/x86_64-linux-gnu/libopencv_ml.so;-lopencv_ml;/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so;-lopencv_objdetect;/usr/lib/x86_64-linux-gnu/libopencv_ocl.so;-lopencv_ocl;/usr/lib/x86_64-linux-gnu/libopencv_photo.so;-lopencv_photo;/usr/lib/x86_64-linux-gnu/libopencv_stitching.so;-lopencv_stitching;/usr/lib/x86_64-linux-gnu/libopencv_superres.so;-lopencv_superres;/usr/lib/x86_64-linux-gnu/libopencv_ts.so;-lopencv_ts;/usr/lib/x86_64-linux-gnu/libopencv_video.so;-lopencv_video;/usr/lib/x86_64-linux-gnu/libopencv_videostab.so;-lopencv_videostab;-lmp3lame;-lmodplug;-lgsm;-lgme;-lstdc++;-lfribidi;-lfreetype;-lfontconfig;-lfreetype;-lflite_cmu_time_awb;-lflite_cmu_us_awb;-lflite_cmu_us_kal;-lflite_cmu_us_kal16;-lflite_cmu_us_rms;-lflite_cmu_us_slt;-lflite_usenglish;-lflite_cmulex;-lflite;-lcaca;-lbs2b;-lbluray;-lass;-lraw1394;-lavc1394;-lrom1394;-liec61883;-lgnutls;-ldl;-lcrystalhd;-lm;-llzma;-lbz2;-lz;-pthread;-lswresample-ffmpeg;-lm;-lsoxr;-lavutil-ffmpeg;-lm
+avcodec_STATIC_LDFLAGS_OTHER:INTERNAL=-DOPJ_STATIC;/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so;/usr/lib/x86_64-linux-gnu/libopencv_contrib.so;/usr/lib/x86_64-linux-gnu/libopencv_core.so;/usr/lib/x86_64-linux-gnu/libopencv_features2d.so;/usr/lib/x86_64-linux-gnu/libopencv_flann.so;/usr/lib/x86_64-linux-gnu/libopencv_gpu.so;/usr/lib/x86_64-linux-gnu/libopencv_highgui.so;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so;/usr/lib/x86_64-linux-gnu/libopencv_legacy.so;/usr/lib/x86_64-linux-gnu/libopencv_ml.so;/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so;/usr/lib/x86_64-linux-gnu/libopencv_ocl.so;/usr/lib/x86_64-linux-gnu/libopencv_photo.so;/usr/lib/x86_64-linux-gnu/libopencv_stitching.so;/usr/lib/x86_64-linux-gnu/libopencv_superres.so;/usr/lib/x86_64-linux-gnu/libopencv_ts.so;/usr/lib/x86_64-linux-gnu/libopencv_video.so;/usr/lib/x86_64-linux-gnu/libopencv_videostab.so;-pthread
+avcodec_STATIC_LIBDIR:INTERNAL=
+avcodec_STATIC_LIBRARIES:INTERNAL=avcodec-ffmpeg;Xv;X11;Xext;dl;va;va-x11;va;xcb;xcb-shm;xcb;xcb-xfixes;xcb-render;xcb-shape;xcb;xcb-shape;xcb;X11;cdio_paranoia;cdio_cdda;cdio;jack;asound;SDL;dc1394;gmp;GL;openal;zvbi;zmq;xvidcore;x265;x264;webp;wavpack;vpx;m;vpx;m;vpx;m;vpx;m;vorbisenc;vorbis;ogg;twolame;theoraenc;theoradec;ogg;speex;ssh;soxr;snappy;m;shine;schroedinger-1.0;rtmp;z;gmp;pulse;opus;openjpeg;opencv_calib3d;opencv_contrib;opencv_core;opencv_features2d;opencv_flann;opencv_gpu;opencv_highgui;opencv_imgproc;opencv_legacy;opencv_ml;opencv_objdetect;opencv_ocl;opencv_photo;opencv_stitching;opencv_superres;opencv_ts;opencv_video;opencv_videostab;mp3lame;modplug;gsm;gme;stdc++;fribidi;freetype;fontconfig;freetype;flite_cmu_time_awb;flite_cmu_us_awb;flite_cmu_us_kal;flite_cmu_us_kal16;flite_cmu_us_rms;flite_cmu_us_slt;flite_usenglish;flite_cmulex;flite;caca;bs2b;bluray;ass;raw1394;avc1394;rom1394;iec61883;gnutls;dl;crystalhd;m;lzma;bz2;z;swresample-ffmpeg;m;soxr;avutil-ffmpeg;m
+avcodec_STATIC_LIBRARY_DIRS:INTERNAL=
+avcodec_STATIC_LIBS:INTERNAL=
+avcodec_STATIC_LIBS_L:INTERNAL=
+avcodec_STATIC_LIBS_OTHER:INTERNAL=
+avcodec_STATIC_LIBS_PATHS:INTERNAL=
+avcodec_VERSION:INTERNAL=56.60.100
+avcodec_libavcodec_INCLUDEDIR:INTERNAL=
+avcodec_libavcodec_LIBDIR:INTERNAL=
+avcodec_libavcodec_PREFIX:INTERNAL=
+avcodec_libavcodec_VERSION:INTERNAL=
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+swscale_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+swscale_CFLAGS_I:INTERNAL=
+swscale_CFLAGS_OTHER:INTERNAL=
+swscale_FOUND:INTERNAL=1
+swscale_INCLUDEDIR:INTERNAL=/usr/include/x86_64-linux-gnu
+swscale_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+swscale_LDFLAGS:INTERNAL=-lswscale-ffmpeg
+swscale_LDFLAGS_OTHER:INTERNAL=
+swscale_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+swscale_LIBRARIES:INTERNAL=swscale-ffmpeg
+swscale_LIBRARY_DIRS:INTERNAL=
+swscale_LIBS:INTERNAL=
+swscale_LIBS_L:INTERNAL=
+swscale_LIBS_OTHER:INTERNAL=
+swscale_LIBS_PATHS:INTERNAL=
+swscale_PREFIX:INTERNAL=/usr
+swscale_STATIC_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+swscale_STATIC_CFLAGS_I:INTERNAL=
+swscale_STATIC_CFLAGS_OTHER:INTERNAL=
+swscale_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
+swscale_STATIC_LDFLAGS:INTERNAL=-lswscale-ffmpeg;-lm;-lavutil-ffmpeg;-lm
+swscale_STATIC_LDFLAGS_OTHER:INTERNAL=
+swscale_STATIC_LIBDIR:INTERNAL=
+swscale_STATIC_LIBRARIES:INTERNAL=swscale-ffmpeg;m;avutil-ffmpeg;m
+swscale_STATIC_LIBRARY_DIRS:INTERNAL=
+swscale_STATIC_LIBS:INTERNAL=
+swscale_STATIC_LIBS_L:INTERNAL=
+swscale_STATIC_LIBS_OTHER:INTERNAL=
+swscale_STATIC_LIBS_PATHS:INTERNAL=
+swscale_VERSION:INTERNAL=3.1.101
+swscale_libswscale_INCLUDEDIR:INTERNAL=
+swscale_libswscale_LIBDIR:INTERNAL=
+swscale_libswscale_PREFIX:INTERNAL=
+swscale_libswscale_VERSION:INTERNAL=
 

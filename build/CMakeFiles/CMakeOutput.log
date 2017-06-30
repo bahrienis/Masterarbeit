@@ -706,3 +706,20 @@ int main() {
   clGetPlatformIDs(0, 0, 0);
   return 0;
 }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX14 succeeded with the following output:
+Change Dir: /home/pses/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d417/fast"
+make[1]: Entering directory '/home/pses/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d417.dir/build.make CMakeFiles/cmTC_8d417.dir/build
+make[2]: Entering directory '/home/pses/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d417.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX14   -std=c++11 -o CMakeFiles/cmTC_8d417.dir/src.cxx.o -c /home/pses/catkin_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8d417
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d417.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX14    CMakeFiles/cmTC_8d417.dir/src.cxx.o  -o cmTC_8d417 -rdynamic 
+make[2]: Leaving directory '/home/pses/catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/pses/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

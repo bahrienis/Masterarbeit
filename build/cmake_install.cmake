@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pses/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/iai_kinect2/iai_kinect2/cmake_install.cmake")
+  include("/home/pses/catkin_ws/build/my_first_awesome_pkg/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/iai_kinect2/kinect2_registration/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/lane_detection/cmake_install.cmake")
   include("/home/pses/catkin_ws/build/opencv_tutorial/cmake_install.cmake")

@@ -1,2 +1,2 @@
-iai_kinect2/iai_kinect2:iai_kinect2/kinect2_bridge:iai_kinect2/kinect2_calibration:iai_kinect2/kinect2_calibration_test:iai_kinect2/kinect2_registration:iai_kinect2/kinect2_viewer:iai_kinect2/kinect2_viewer_test:lane_detection:opencv_tutorial:pses_basis:pses_simulation:usb_cam
+iai_kinect2/iai_kinect2:iai_kinect2/kinect2_bridge:iai_kinect2/kinect2_calibration:iai_kinect2/kinect2_calibration_test:iai_kinect2/kinect2_registration:iai_kinect2/kinect2_viewer:iai_kinect2/kinect2_viewer_test:lane_detection:my_first_awesome_pkg:opencv_tutorial:pses_basis:pses_simulation:usb_cam
 -DCATKIN_DEVEL_PREFIX=/home/pses/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pses/catkin_ws/install -G Unix Makefiles
